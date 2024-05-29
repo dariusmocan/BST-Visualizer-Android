@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To use this application:\n\n1. Enter a number in the text field and press 'Insert' to add a node to the tree.\n2. Enter a number in the text field and press 'Delete' to remove a node from the tree.\n3. Press 'Clear' to remove all nodes and reset the tree.\n"
+        android:textSize="16sp"/>
+</LinearLayout>
